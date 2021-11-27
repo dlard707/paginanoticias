@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dlard707/paginanoticias/issues"
   },
-  "homepage": "https://github.com/dlard707/paginanoticias#readme"
+  "homepage": "https://github.com/dlard707/paginanoticias#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
