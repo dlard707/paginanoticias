@@ -1,0 +1,31 @@
+<header class="container-fluid bg-dark sticky-top">
+    <nav
+      class="d-flex justify-content-between flex-column flex-sm-row flex-wrap justify-content-center align-items-center"
+    >
+      <div>
+        <img src="./img/logo_branca.svg" alt="" />
+      </div>
+      <div>
+        <ul class="nav nav-pills">
+          <li>
+            <a class="nav-link text-white" href="/" id="menuHome">Home</a>
+          </li>
+          <li>
+            <a class="nav-link text-white" href="/noticias" id="menuNoticias"
+              >Notícias</a
+            >
+          </li>
+          <li>
+            <a class="nav-link text-white" href="/admin" id="menuAdmin"
+              >Admin</a
+            >
+          </li>
+          <li>
+            <% if (typeof(autorizado) !== 'undefined') { %>
+            <a class="nav-link text-white" href="/admin/sair">Sair</a>
+            <% } %>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
